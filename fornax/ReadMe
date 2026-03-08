@@ -1,0 +1,84 @@
+J/AJ/137/3100       Radial velocities of 4 dSph galaxies         (Walker+, 2009)
+================================================================================
+Stellar velocities in the Carina, Fornax, Sculptor, and Sextans dSph galaxies:
+data from the Magellan/MMFS survey.
+    Walker M.G., Mateo M., Olszewski E.W.
+   <Astron. J., 137, 3100-3108 (2009)>
+   =2009AJ....137.3100W
+================================================================================
+ADC_Keywords: Galaxies, nearby ; Radial velocities
+Keywords: galaxies: dwarf -
+          galaxies: individual (Carina, Fornax, Sculptor, Sextans) -
+          galaxies: kinematics and dynamics - Local Group -
+          techniques: radial velocities
+
+Abstract:
+    We present spectroscopic data for individual stars observed from 2004
+    March through 2008 August as part of our Michigan/MIKE Fiber System
+    (MMFS) survey of four dwarf spheroidal (dSph) galaxies: Carina,
+    Fornax, Sculptor, and Sextans. Using MMFS at the Magellan/Clay
+    Telescope at Las Campanas Observatory, we have acquired 8855 spectra
+    from 7103 red-giant candidates in these Galactic satellites. We list
+    measurements of each star's line-of-sight velocity (median error
+    +/-2.1km/s) and spectral line indices for iron and magnesium
+    absorption features.
+
+Description:
+    We refer the reader to Paper I (Walker et al., 2006, Cat.
+    J/AJ/131/2114) for a description of MMFS and the details of our
+    methodology regarding target selection, observing procedure, and data
+    reduction. After the publication of Paper I, we obtained new data
+    during observing runs in 2007 January, 2007 September, 2008 April, and
+    2008 August.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+table2.dat    119     2400   MMFS Spectroscopic Data - Carina
+table3.dat    119     3150   MMFS Spectroscopic Data - Fornax
+table4.dat    119     1818   MMFS Spectroscopic Data - Sculptor
+table5.dat    119     1487   MMFS Spectroscopic Data - Sextans
+--------------------------------------------------------------------------------
+
+See also:
+   J/AJ/131/2114 : Radial velocities in Fornax dSph (Walker+, 2006)
+
+Byte-by-byte Description of file: table[2345].dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  8  A8    ---     Target  Target identification; Galaxy-ID number
+  10- 13  A4    ---     Field   Field and spectrograph channel (B=blue, R=red)
+  15- 22  F8.3  d       HJD     Heliocentric Julian Date minus 2450000 of obs.
+  24- 25  I2    h       RAh     Hour of Right Ascension (J2000)
+  27- 28  I2    min     RAm     Minute of Right Ascension (J2000)
+  30- 34  F5.2  s       RAs     Second of Right Ascension (J2000)
+      36  A1    ---     DE-     Sign of the Declination (J2000)
+  37- 38  I2    deg     DEd     Degree of Declination (J2000)
+  40- 41  I2    arcmin  DEm     Arcminute of Declination (J2000)
+  43- 46  F4.1  arcsec  DEs     Arcsecond of Declination (J2000)
+  48- 52  F5.2  mag     Vmag    ? Apparent V band magnitude
+  54- 58  F5.2  mag     V-I     ? The (V-I) color index
+  60- 65  F6.1  km/s    HV      Heliocentric rest frame velocity
+  67- 70  F4.1  km/s  e_HV      Uncertainty in HV
+  72- 76  F5.2  0.1nm   SigFe   ? The {Sigma}Fe spectral index ({AA})
+  78- 81  F4.2  0.1nm e_SigFe   ? Uncertainty in SigFe ({AA})
+  83- 87  F5.2  0.1nm   SigMg   ? The {Sigma}Mg spectral index ({AA})
+  89- 92  F4.2  0.1nm e_SigMg   ? Uncertainty in SigMg ({AA})
+  94- 98  F5.3  ---     Mmb     ? Probability membership
+ 100-104  F5.1  km/s    <HV>    ? Weighted mean Heliocentric rest frame velocity
+ 106-108  F3.1  km/s  e_<HV>    ? Uncertainty in <HV>
+ 110-114  F5.2  0.1nm   <SigMg> ? Weighted mean {Sigma}Mg spectral index ({AA})
+ 116-119  F4.2  0.1nm e_<SigMg> ? Uncertainty in <SigMg> ({AA})
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+References:
+    Walker et al., Paper I    2006AJ....131.2114W, Cat. J/AJ/131/2114
+
+================================================================================
+(End)                  Greg Schwarz [AAS], Patricia Vannier [CDS]    24-Aug-2011
